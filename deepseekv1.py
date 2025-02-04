@@ -91,7 +91,7 @@ class DeepseekLLM:
         content = response.choices[0].message.content
         return AIMessage(content=content)
 
-llm = DeepseekLLM(model="deepseek/deepseek-r1-distill-qwen-32b")
+llm = DeepseekLLM(model="deepseek/deepseek-r1")
 
 class State(TypedDict):
     messages: List[HumanMessage]
