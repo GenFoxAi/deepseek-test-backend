@@ -15,6 +15,5 @@ logging
 asyncio
 pymongo
 gunicorn
-zilliz
 milvus
 pillow
