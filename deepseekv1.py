@@ -29,6 +29,7 @@ app.add_middleware(
         "http://0.0.0.0:5000",
         "http://localhost:5173",
         "https://comm-it-engage-prototype.vercel.app",
+        "https://deepseek-test-frontend-openairouter.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
